@@ -1,8 +1,8 @@
 {
   "name": "first_react_app",
+  "homepage": "https://sj-bl.github.io/first-react-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sj-bl.github.io/sj-bl/first-react-project",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
